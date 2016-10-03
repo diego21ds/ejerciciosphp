@@ -6,11 +6,12 @@
 <?php
 //inicializamos
 echo "Array ordenado inicializado elemento por elemento <hr>";
-$array1[0]="elemento 1 ";
-$array1[1]="elemento 2 ";
-$array1[2]="elemento 3 ";
-$array1[3]="elemento 4 ";
-$array1[4]="elemento 5 ";
+$array1[base]="Nacho ";
+$array1[escolta]="Javier ";
+$array1[alero]="Diego ";
+$array1[alapivot]="Carlos ";
+$array1[pivot]="Daniel ";
+
 
 
 //la podemos recorrer con el bucle foreach de dos maneras:
@@ -19,12 +20,12 @@ foreach ($array1 as $element){
     echo $element . '<br>';
 }
 
-//foreach clave->elemento
+
+
 echo "<hr> Recorrido mediante bucle foreach con posicion->elemento <br>";
 foreach ($array1 as $position=>$element){
     echo $position . ": " . $element . '<br>';
 } 
 
-?> 
-
+?>
 </body></html>
