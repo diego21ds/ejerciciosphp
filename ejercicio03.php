@@ -30,7 +30,9 @@ foreach ($array1 as $key => $nombres){
 	}
 }
 
-var_dump($array1);
+echo"<pre>";
+print_r($array1);
+echo"</pre>";
 ?> 
 
 
