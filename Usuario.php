@@ -6,9 +6,7 @@
 <?php
 
 
-
-
-require_once ('App.php');
+require_once 'Usuario.php';
 class App
 {
     private $_usuario;
@@ -22,14 +20,14 @@ class App
 //        echo "$this->_usuario";
         }
     }
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
 
 
 
